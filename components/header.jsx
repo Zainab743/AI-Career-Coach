@@ -11,8 +11,6 @@ import {
   DropdownMenu,
   DropdownMenuTrigger,
   DropdownMenuContent,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
   DropdownMenuItem
 } from "./ui/dropdown-menu";
 
@@ -23,11 +21,11 @@ const Header=()=>{
         <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
             <Link href='/'>
                 <Image 
-                    src="/logo.png"
-                    alt="sensai logo"
+                    src="/logo2.png"
+                    alt="aspAIre logo"
                     width={200}
                     height={60}
-                    className="h-12 py-1 w-auto object-contain"
+                    className="h-30 py-1 w-auto object-contain"
                 />
             </Link>
             <div className="flex items-center gap-4">

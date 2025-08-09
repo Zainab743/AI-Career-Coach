@@ -128,7 +128,8 @@ export default function ResumePage() {
         <button
           onClick={generateResume}
           disabled={loading}
-          className="border border-gray-500 text-white-700 px-4 py-2 rounded hover:bg-gray-100"
+          className="border border-gray-500 text-white px-4 py-2 rounded 
+           hover:bg-gray-100 hover:text-gray-800"
         >
 
           {loading ? "Generating..." : "Generate Resume"}
