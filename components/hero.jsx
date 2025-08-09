@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
-import { SignedOut } from "@clerk/nextjs";
+
 
 const HeroSection = () => {
 

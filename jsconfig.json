@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@clerk/nextjs": ["./lib/noauth-shim"],
+      "@clerk/nextjs/server": ["./lib/noauth-shim"]
     }
   }
 }
