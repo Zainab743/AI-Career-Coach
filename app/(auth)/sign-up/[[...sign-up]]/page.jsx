@@ -6,6 +6,7 @@ export default function Page() {
       path="/sign-up"
       routing="path"
       signInUrl="/sign-in"
+      afterSignUpUrl="/" 
     />
   );
 }

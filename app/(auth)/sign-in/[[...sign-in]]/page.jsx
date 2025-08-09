@@ -3,7 +3,13 @@
 import { SignIn, SignInButton } from "@clerk/nextjs";
 import Link from "next/link";
 
-const Page = () => {
-  return <SignIn />;
-};
-export default Page;
+export default function Page() {
+  return (
+    <SignIn
+      path="/sign-in"
+      routing="path"
+      signUpUrl="/sign-up"
+      afterSignInUrl="/" // 👈 Redirect after sign-up
+    />
+  );
+}
